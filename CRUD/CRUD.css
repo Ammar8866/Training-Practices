@@ -1,0 +1,25 @@
+.list{
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(227, 250, 175);
+    height: 600px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 65px;
+    padding: 35px 0px 0px 0px;
+   
+}
+
+
+
+table.list{
+    width: 100px;
+}
+
+td, th{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    text-align:center;
+    padding: 6px 50px 8px 0px ;
+    
+}

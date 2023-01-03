@@ -1,0 +1,91 @@
+/* .............CSS RESET.............. */
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/*..............................NAVIGATION BAR.....................................*/
+.navbar{
+background-color: rgb(49, 46, 46);
+margin: 10px;
+padding: 20px;
+border-radius: 5px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    padding: 20px;
+    text-decoration: none;
+}
+.Search{
+border-radius: 15px;
+float: right;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 254, 254);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(124, 124, 119);
+}
+
+/*.................................................................................*/
+
+.Container{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px auto;
+    width: 1350px;
+
+
+}
+ .Gym{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgba(65, 178, 212, 0.808);
+    border-radius: 20px;
+
+ }
+
+body{
+background-image: url("gym.jpg");
+
+}
+
+ .info{
+color: black;
+
+ }
+
+ #About{
+float: left;
+width: 49%;
+
+ }
+
+ #client{
+    float: right;
+    width: 49%;
+
+ }
+
+ #VIDEO{
+    clear: left;
+    float:left;
+    width: 30%;
+    
+ }

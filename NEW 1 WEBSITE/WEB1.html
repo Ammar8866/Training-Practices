@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM WORKOUT</title>
+    <link rel="icon" type="image/x-icon" href="weightlifter.png">
+    <link rel="stylesheet" href="WEB2.css">
+<script src="web3.js"></script>
+
+</head>
+
+
+
+<body>
+    <!-- -------- Header with navigation baar --------- -->
+    <header>
+        <nav class="navbar">
+<ul>
+    <li><a href="#">TRAINING</a></li>
+    <li><a href="#">DIET</a></li>
+    <li><a href="#">CONTACT</a></li>
+    <div class="Search">
+        <input type ="text" name="Search" id="Search" placeholder="Search this Website">
+    </div>
+</ul>
+        </nav>
+    </header>
+
+<!-- --------------------------------------------------------------- -->
+<div class="Container">
+
+<div id="About" class="Gym">
+    <h3>ABOUT TRAINING</h3><br>
+    <p id="us" class="info"><b>Gym and Fitness was founded in 2002 as a family owned and operated business specialising in supplying high-quality gym equipment at great prices.
+
+        Instead of being just another gym equipment retailer, our founders wanted to be the best in the industry and set their minds to doing so! Over the last two decades Gym and Fitness has grown into one of Australia’s largest online fitness equipment retailers, helping thousands of customers live longer, happier and healthier lives.Fitness training balances five elements of good health. Make sure your routine includes aerobic fitness, strength training, core exercises, balance training, and flexibility and stretching.</b></p>
+        <button type="button" onclick='document.getElementById("us").innerHTML = "Hello JavaScript!"'>ABOUT!</button>
+</div>
+
+
+<div id="client" class="Gym" >
+    <h3>Our Clients</h3><br>
+    <p id="about1" class="info"><b>“I LIKE MY TRAINER. I LIKE THE LOOK OF THE STUDIO. I LIKE THE PEOPLE WHO USE IT. I LIKE THE MIX OF THOSE PEOPLE.”
+        ― PAMELA, CAMBRIDGE<br><br>
+        This is a fantastic gym!! All the trainers are super nice and take an interest in you no matter what fitness level you’re at. I really like how they give me tips and tricks to get the most out of every workout. I’ve been going for a little bit and am already seeing a big change in my energy levels and body. It’s great! I feel 10 years younger!
+    <br>THANKS</b></p>
+</div>
+
+<div id="VIDEO" class="Gym">
+    <h3>SHORT VIDEO</h3><br>
+   
+    <video width="100%" height="200px" controls autoplay>
+        <source src="videoplayback.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+      <button  onclick="cal()">Details</button>
+</div>
+</div>
+
+</body>
+</html>

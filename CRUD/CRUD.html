@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="CRUD.css">
+    <script src="CRUD.js"> </script>
+    <script src="https://kit.fontawesome.com/c7693001a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault(); " autocomplete="off">
+                    <div>
+                    <label>NAME</label>
+                    <input type="text" name="fullname" id="name">
+                    </div>
+
+                    <div>
+                        <label>salary</label>
+                        <input type="text" name="salary" id="Dob">
+                    </div>
+
+                    <div>
+                        <label>city</label>
+                        <input type="text" name="city" id="StartDate">
+                     </div>
+                     <div>
+                        
+                        <input onclick="onFormSubmit()" type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <td>
+        <table class="list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Dob</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Upload</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+   
+            </tbody>
+   
+         </table>
+     </td>
+</body>
+</html>
